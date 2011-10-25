@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4179775E14293BF3007C2C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4179775D14293BF3007C2C43 /* UIKit.framework */; };
+		4179776014293BF3007C2C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4179775F14293BF3007C2C43 /* Foundation.framework */; };
+		4179776614293BF3007C2C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4179776414293BF3007C2C43 /* InfoPlist.strings */; };
+		4179776814293BF3007C2C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179776714293BF3007C2C43 /* main.m */; };
+		4179776C14293BF3007C2C43 /* TTEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179776B14293BF3007C2C43 /* TTEAppDelegate.m */; };
+		4179777214293BF3007C2C43 /* TTEStage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4179777014293BF3007C2C43 /* TTEStage.xib */; };
+		4179777F14294406007C2C43 /* Keyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179777E14294406007C2C43 /* Keyframe.m */; };
+		41797782142971BE007C2C43 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 41797781142971BE007C2C43 /* Entity.m */; };
+		41797785142972E4007C2C43 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 41797784142972E4007C2C43 /* Sprite.m */; };
+		4179778D1429757F007C2C43 /* TTEStage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179778C1429757F007C2C43 /* TTEStage.m */; };
+		41797798142C685C007C2C43 /* TTEFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 41797797142C6850007C2C43 /* TTEFileBrowser.m */; };
+		4179779F142C7A27007C2C43 /* TTEEntityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179779E142C7A26007C2C43 /* TTEEntityViewController.m */; };
+		417977A2142C7C27007C2C43 /* TTESpritePropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417977A1142C7C27007C2C43 /* TTESpritePropertiesViewController.m */; };
+		417977A4142C81C9007C2C43 /* TTESpritePropertiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417977A3142C81C9007C2C43 /* TTESpritePropertiesView.xib */; };
+		417977B8142F1332007C2C43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417977B7142F1331007C2C43 /* QuartzCore.framework */; };
+		417977BA143059F6007C2C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417977B9143059F5007C2C43 /* CoreGraphics.framework */; };
+		417977BD14305B20007C2C43 /* into_the_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 417977BB14305B20007C2C43 /* into_the_fire.png */; };
+		417977BE14305B20007C2C43 /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 417977BC14305B20007C2C43 /* turtle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4179775914293BF3007C2C43 /* TimelineEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimelineEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4179775D14293BF3007C2C43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4179775F14293BF3007C2C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4179776314293BF3007C2C43 /* TimelineEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimelineEditor-Info.plist"; sourceTree = "<group>"; };
+		4179776514293BF3007C2C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4179776714293BF3007C2C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4179776914293BF3007C2C43 /* TimelineEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimelineEditor-Prefix.pch"; sourceTree = "<group>"; };
+		4179776A14293BF3007C2C43 /* TTEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTEAppDelegate.h; sourceTree = "<group>"; };
+		4179776B14293BF3007C2C43 /* TTEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTEAppDelegate.m; sourceTree = "<group>"; };
+		4179777114293BF3007C2C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTEStage.xib; sourceTree = "<group>"; };
+		4179777D14294405007C2C43 /* Keyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyframe.h; sourceTree = "<group>"; };
+		4179777E14294406007C2C43 /* Keyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyframe.m; sourceTree = "<group>"; };
+		41797780142971BE007C2C43 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		41797781142971BE007C2C43 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		41797783142972E4007C2C43 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		41797784142972E4007C2C43 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		4179778B1429757F007C2C43 /* TTEStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEStage.h; sourceTree = "<group>"; };
+		4179778C1429757F007C2C43 /* TTEStage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEStage.m; sourceTree = "<group>"; };
+		41797796142C684E007C2C43 /* TTEFileBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEFileBrowser.h; sourceTree = "<group>"; };
+		41797797142C6850007C2C43 /* TTEFileBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEFileBrowser.m; sourceTree = "<group>"; };
+		4179779C142C7914007C2C43 /* ModalViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewControllerDelegate.h; sourceTree = "<group>"; };
+		4179779D142C7A25007C2C43 /* TTEEntityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEEntityViewController.h; sourceTree = "<group>"; };
+		4179779E142C7A26007C2C43 /* TTEEntityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEEntityViewController.m; sourceTree = "<group>"; };
+		417977A0142C7C26007C2C43 /* TTESpritePropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTESpritePropertiesViewController.h; sourceTree = "<group>"; };
+		417977A1142C7C27007C2C43 /* TTESpritePropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTESpritePropertiesViewController.m; sourceTree = "<group>"; };
+		417977A3142C81C9007C2C43 /* TTESpritePropertiesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTESpritePropertiesView.xib; sourceTree = "<group>"; };
+		417977B7142F1331007C2C43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		417977B9143059F5007C2C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		417977BB14305B20007C2C43 /* into_the_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = into_the_fire.png; sourceTree = "<group>"; };
+		417977BC14305B20007C2C43 /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4179775614293BF3007C2C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417977BA143059F6007C2C43 /* CoreGraphics.framework in Frameworks */,
+				417977B8142F1332007C2C43 /* QuartzCore.framework in Frameworks */,
+				4179775E14293BF3007C2C43 /* UIKit.framework in Frameworks */,
+				4179776014293BF3007C2C43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4179774E14293BF2007C2C43 = {
+			isa = PBXGroup;
+			children = (
+				417977B9143059F5007C2C43 /* CoreGraphics.framework */,
+				417977B7142F1331007C2C43 /* QuartzCore.framework */,
+				417977A5142C8CCE007C2C43 /* Media */,
+				4179776114293BF3007C2C43 /* TimelineEditor */,
+				4179776214293BF3007C2C43 /* Supporting Files */,
+				4179775C14293BF3007C2C43 /* Frameworks */,
+				4179775A14293BF3007C2C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4179775A14293BF3007C2C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4179775914293BF3007C2C43 /* TimelineEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4179775C14293BF3007C2C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4179775D14293BF3007C2C43 /* UIKit.framework */,
+				4179775F14293BF3007C2C43 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4179776114293BF3007C2C43 /* TimelineEditor */ = {
+			isa = PBXGroup;
+			children = (
+				4179776A14293BF3007C2C43 /* TTEAppDelegate.h */,
+				4179776B14293BF3007C2C43 /* TTEAppDelegate.m */,
+				4179777D14294405007C2C43 /* Keyframe.h */,
+				4179777E14294406007C2C43 /* Keyframe.m */,
+				41797780142971BE007C2C43 /* Entity.h */,
+				41797781142971BE007C2C43 /* Entity.m */,
+				41797783142972E4007C2C43 /* Sprite.h */,
+				41797784142972E4007C2C43 /* Sprite.m */,
+				4179778B1429757F007C2C43 /* TTEStage.h */,
+				4179778C1429757F007C2C43 /* TTEStage.m */,
+				4179777014293BF3007C2C43 /* TTEStage.xib */,
+				41797796142C684E007C2C43 /* TTEFileBrowser.h */,
+				41797797142C6850007C2C43 /* TTEFileBrowser.m */,
+				4179779C142C7914007C2C43 /* ModalViewControllerDelegate.h */,
+				4179779D142C7A25007C2C43 /* TTEEntityViewController.h */,
+				4179779E142C7A26007C2C43 /* TTEEntityViewController.m */,
+				417977A0142C7C26007C2C43 /* TTESpritePropertiesViewController.h */,
+				417977A1142C7C27007C2C43 /* TTESpritePropertiesViewController.m */,
+				417977A3142C81C9007C2C43 /* TTESpritePropertiesView.xib */,
+			);
+			path = TimelineEditor;
+			sourceTree = "<group>";
+		};
+		4179776214293BF3007C2C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4179776314293BF3007C2C43 /* TimelineEditor-Info.plist */,
+				4179776414293BF3007C2C43 /* InfoPlist.strings */,
+				4179776714293BF3007C2C43 /* main.m */,
+				4179776914293BF3007C2C43 /* TimelineEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = TimelineEditor;
+			sourceTree = "<group>";
+		};
+		417977A5142C8CCE007C2C43 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				417977A6142C8CCF007C2C43 /* gfx */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		417977A6142C8CCF007C2C43 /* gfx */ = {
+			isa = PBXGroup;
+			children = (
+				417977BB14305B20007C2C43 /* into_the_fire.png */,
+				417977BC14305B20007C2C43 /* turtle.png */,
+			);
+			path = gfx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4179775814293BF3007C2C43 /* TimelineEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4179777514293BF3007C2C43 /* Build configuration list for PBXNativeTarget "TimelineEditor" */;
+			buildPhases = (
+				4179775514293BF3007C2C43 /* Sources */,
+				4179775614293BF3007C2C43 /* Frameworks */,
+				4179775714293BF3007C2C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimelineEditor;
+			productName = TimelineEditor;
+			productReference = 4179775914293BF3007C2C43 /* TimelineEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4179775014293BF2007C2C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Tumunu;
+			};
+			buildConfigurationList = 4179775314293BF2007C2C43 /* Build configuration list for PBXProject "TimelineEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4179774E14293BF2007C2C43;
+			productRefGroup = 4179775A14293BF3007C2C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4179775814293BF3007C2C43 /* TimelineEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4179775714293BF3007C2C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4179776614293BF3007C2C43 /* InfoPlist.strings in Resources */,
+				4179777214293BF3007C2C43 /* TTEStage.xib in Resources */,
+				417977A4142C81C9007C2C43 /* TTESpritePropertiesView.xib in Resources */,
+				417977BD14305B20007C2C43 /* into_the_fire.png in Resources */,
+				417977BE14305B20007C2C43 /* turtle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4179775514293BF3007C2C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4179776814293BF3007C2C43 /* main.m in Sources */,
+				4179776C14293BF3007C2C43 /* TTEAppDelegate.m in Sources */,
+				4179777F14294406007C2C43 /* Keyframe.m in Sources */,
+				41797782142971BE007C2C43 /* Entity.m in Sources */,
+				41797785142972E4007C2C43 /* Sprite.m in Sources */,
+				4179778D1429757F007C2C43 /* TTEStage.m in Sources */,
+				41797798142C685C007C2C43 /* TTEFileBrowser.m in Sources */,
+				4179779F142C7A27007C2C43 /* TTEEntityViewController.m in Sources */,
+				417977A2142C7C27007C2C43 /* TTESpritePropertiesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4179776414293BF3007C2C43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4179776514293BF3007C2C43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4179777014293BF3007C2C43 /* TTEStage.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4179777114293BF3007C2C43 /* en */,
+			);
+			name = TTEStage.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4179777314293BF3007C2C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4179777414293BF3007C2C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4179777614293BF3007C2C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimelineEditor/TimelineEditor-Prefix.pch";
+				INFOPLIST_FILE = "TimelineEditor/TimelineEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4179777714293BF3007C2C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimelineEditor/TimelineEditor-Prefix.pch";
+				INFOPLIST_FILE = "TimelineEditor/TimelineEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4179775314293BF2007C2C43 /* Build configuration list for PBXProject "TimelineEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4179777314293BF3007C2C43 /* Debug */,
+				4179777414293BF3007C2C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4179777514293BF3007C2C43 /* Build configuration list for PBXNativeTarget "TimelineEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4179777614293BF3007C2C43 /* Debug */,
+				4179777714293BF3007C2C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4179775014293BF2007C2C43 /* Project object */;
+}
